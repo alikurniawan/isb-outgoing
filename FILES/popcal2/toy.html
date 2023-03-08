@@ -1,0 +1,72 @@
+<!-- TWO STEPS TO INSTALL FUUSHIKADEN POP-UP CALENDAR:
+
+
+	1.  Copy the coding into the HEAD of your HTML document
+
+	2.  Add the last code into the BODY of your HTML document  -->
+
+
+<!-- STEP ONE: Paste this code into the HEAD of your HTML document  -->
+
+
+<html>
+<head>
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- Original:  Tan Ling Wee -->
+<!-- Web Site:  http://64.246.32.44/~admin59/index.htm  -->
+
+<script type="text/javascript" language="JavaScript" src="popcalendar.js"></script>
+
+<style type="text/css">
+	body{
+		color: black;
+		font-size: 11px;
+	}
+	ADDRESS,BLOCKQUOTE,BODY,CAPTION,CENTER,DD,DIR,DIV,DL,DT,FORM,H1,H2,H3,H4,H5,H6,INPUT,MENU,OL,P,SELECT,TD,TEXTAREA,TH,UL{
+		color: black;
+		font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	}
+</style>
+</head>
+
+<!-- STEP TWO: Copy this code into the BODY of your HTML document  -->
+
+<body>
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Original:  Tan Ling Wee -->
+
+<!-- Web Site:  http://64.246.32.44/~admin59/index.htm  -->
+
+	<h3>Demonstration # 1</h3>
+
+		This demonstration caters for Netscape 4, but showing the date value in a text box. The trigger is a button, and the data container is the text box.<br><br>
+
+		<blockquote>
+		<form name='mainform' method='post'>
+
+			<input type=text name='datevalue' size=10 maxlength=10 value='2004-05-14'>
+
+			<input type=button onclick='showCalendar(this, datevalue, "yyyy-mm-dd",null,1)' value='...' style='font-size:11px'>
+
+		</form>
+		</blockquote>
+		<br />
+		<br />
+
+	<h3>Demonstration # 2</h3>
+
+		The following demonstration uses a button as both a trigger and data container. Selected language is german.<br />
+			<blockquote>
+
+			<input style='font-size:11px' type=button value="28.07.2003" onclick='showCalendar(this, this, "dd.mm.yyyy","de",1)'>
+
+		</blockquote>
+
+</body>
+</html>

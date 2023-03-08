@@ -1,0 +1,133 @@
+BODY.myphpgrid {
+	background-color: #FAF0E6;
+	font-family: sans-serif, monospace;
+}
+
+A.myphpgrid {
+  color: #00008B;
+  text-decoration: none;  
+}
+
+A.myphpgrid_edit {
+  color: #FFD700;
+  text-decoration: none;  
+}
+
+A.myphpgrid_del {
+  color: #B22222;
+  text-decoration: none;  
+}
+
+A.myphpgrid_add {
+  color: Green;
+  text-decoration: none;  
+}
+
+A.myphpgrid_acc, SPAN.myphpgrid_acc {
+	color: Red;
+	text-decoration: none;
+}
+
+A.myphpgrid_cnc {
+  color: Red;
+  text-decoration: none;  
+}
+
+table.myphpgrid
+{
+	background: #CFD7DC;
+	border-style: solid; 
+	border-width: 0px;
+	border-color: black; 
+	
+   padding: 0px;
+	/* empty-cells: show; */
+	/* border-spacing: 1px; */
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: smaller;
+}
+
+th.myphpgrid, th.myphpgridA, th.myphpgridD, th.myphpgrid_filter, th.myphpgrid_sorted
+{
+  padding: 4px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #bbbbcc;
+  color: #000000;
+}
+
+th.myphpgrid_sorted
+{
+	background: #ccddcc;
+}
+
+th.myphpgrid, th.myphpgridA, th.myphpgridD
+{
+  /* height: 24px; */
+}
+
+.myphpgrid_opts
+{
+	font-size: 11px;
+   color: #000000;
+	text-decoration: none;	
+}
+
+.myphpgrid_edit
+{
+	font-size: 11px;
+   color: #000000;
+}
+
+th.myphpgrid_filter
+{
+  background-color: #aaaabb;
+}
+
+/* sort ascending */
+.myphpgridA {
+	color: Red;
+	text-decoration: underline;
+}
+/* sort descending */
+.myphpgridD {   color: #006400;	text-decoration: overline;  }
+
+td.myphpgrid0, td.myphpgrid1, td.myphpgrid_edit, 
+td.myphpgrid_add, td.myphpgrid_del, td.myphpgrid_sel
+{
+  padding: 4px;
+  margin: 0px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #dddddd;
+  color: #000000;
+}
+td.myphpgrid_edit {	background: #FFD700; }
+td.myphpgrid_del  {	background: #FFB6C1; }
+td.myphpgrid_add  {	background: #66CDAA; }
+td.myphpgrid_sel  {	background: #D5F5A5; }
+
+td.myphpgrid1     {  background: #eeeeee; }
+
+.myphpgrid_navi
+{
+	color: Red;
+	font-size: 9px;
+	background: #EFEFEF;
+	text-decoration: none;
+	font: bold;
+}
+
+.myphpgrid_nav2
+{
+	color: Green;
+	font-size: 9px;
+	text-decoration: none;
+}
+td.myphpgrid_nava, td.myphpgrid_navb, td.myphpgrid_navc
+{
+	padding-left: 12px;  padding-right: 12px;
+}
+td.myphpgrid_nava {  background: #BFC7CC; }
+td.myphpgrid_navb {  background: #CFD7DC; }
+td.myphpgrid_navc {  background: #DFE7EC; }
